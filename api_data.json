@@ -134,10 +134,10 @@
           },
           {
             "group": "Success 200",
-            "type": "file",
+            "type": "string",
             "optional": false,
-            "field": "file",
-            "description": "<p>file user beruba JSON</p>"
+            "field": "username",
+            "description": "<p>string username</p>"
           }
         ]
       },
@@ -192,7 +192,7 @@
       "examples": [
         {
           "title": "Request-Example:",
-          "content": "{\n    \"file\": username-savedata.txt\n}",
+          "content": "{\n    \"file\": username-updatedata.txt,\n        \"username\": username-updatedata.txt\n}",
           "type": "json"
         }
       ]
@@ -220,6 +220,13 @@
             "optional": false,
             "field": "file",
             "description": "<p>file user berupa JSON</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "file",
+            "optional": false,
+            "field": "username",
+            "description": "<p>string username</p>"
           }
         ]
       },
@@ -274,7 +281,7 @@
       "examples": [
         {
           "title": "Request-Example:",
-          "content": "{\n    \"file\": username-updatedata.txt\n}",
+          "content": "{\n    \"file\": username-updatedata.txt,\n        \"username\": Kevin123\n}",
           "type": "json"
         }
       ]
@@ -302,6 +309,13 @@
             "optional": false,
             "field": "file",
             "description": "<p>file user berupa JSON</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "string",
+            "optional": false,
+            "field": "username",
+            "description": "<p>Kevin123 username</p>"
           }
         ]
       },
