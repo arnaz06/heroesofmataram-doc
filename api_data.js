@@ -192,7 +192,7 @@ define({ "api": [
       "examples": [
         {
           "title": "Request-Example:",
-          "content": "{\n    \"file\": username-updatedata.txt,\n        \"username\": username-updatedata.txt\n}",
+          "content": "{\n    \"file\": username-updatedata.txt,\n}",
           "type": "json"
         }
       ]
@@ -220,13 +220,6 @@ define({ "api": [
             "optional": false,
             "field": "file",
             "description": "<p>file user berupa JSON</p>"
-          },
-          {
-            "group": "Success 200",
-            "type": "file",
-            "optional": false,
-            "field": "username",
-            "description": "<p>string username</p>"
           }
         ]
       },
